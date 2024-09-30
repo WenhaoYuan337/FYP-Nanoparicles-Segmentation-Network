@@ -68,9 +68,10 @@ python emcopilot.py
 - **Output:** Saves a histogram visualization and logs statistics such as the average particle area and count.
 
 
-## Project Outlook
-- **object detection:** detection models such as Fast R-CNN or Yolo 11 can also be implemented for particle detection, which may be much faster than segmentation, better suited for high-throughput requirements.
-- **object detection:** detection models such as Fast R-CNN or Yolo 11 can also be implemented for particle detection, which may be much faster than segmentation, better suited for high-throughput requirements.
+## Project Outlook (extensions can be done)
+- **object detection:** detection models such as Fast-RCNN or Yolo 11 can also be implemented for particle detection, which may be much faster than segmentation, and better suited for high-throughput requirements.
+- **object tracking:** multi-object tracking methods (such as DeepSort), MOT, could be implemented based on the mask obtained from segmentation, to track the dynamic evolution of particles between different frames.
+- **sintering:** as the characteristic of particles can defined using three key parameters, its own size, its neighboring particles distribution(can be described using pair distribution function), and size. So it is hopeful to build a descriptor for this and thus differentiate two sintering mechanisms. Ref: [A machine learning-based framework for mapping hydrogen at the atomic scale](10.1073/pnas.2410968121), [Quantifying Atomically Dispersed Catalysts Using Deep Learning Assisted Microscopy](10.1021/acs.nanolett.3c01892), [Deep-Learning Aided Atomic-Scale Phase Segmentation toward Diagnosing Complex Oxide Cathodes for Lithium-Ion Batteries](10.1021/acs.nanolett.3c02441)
 
 
 ## Questions?
