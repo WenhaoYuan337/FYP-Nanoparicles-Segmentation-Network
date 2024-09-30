@@ -77,9 +77,6 @@ python emcopilot.py
 Please email wy337@cornell.edu or add WeChat 13303130328 
 
 
-## Questions?
-Copyright @ Wenhao Yuan 2024
-
 
 
 
