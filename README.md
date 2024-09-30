@@ -48,18 +48,25 @@ python emcopilot.py
 
 
 ## Detailed Workflow
-- **DM4 Processor Function**
-Input: Folder containing .dm4 files and the output folder where processed images and metadata will be stored.
-Processing: Extracts metadata from the .dm4 files (sample name, scale, units, dimensions) and normalizes the image data.
-Output: Saves normalized images as .png in subfolders named after the sample. Metadata is logged in samples_info.txt.
-- **Segmentor Function**
-Input: Processed images and the pre-trained segmentation model.
-Processing: Applies the deep learning model to segment particles, calculates particle areas, and saves the segmented images.
-Output: Segmentation results saved as images and particle data saved for further analysis.
-- **Analyzer Function**
-Input: Segmentation results and particle area data.
-Processing: Analyzes the distribution of particle sizes and generates statistical information and histograms.
-Output: Saves a histogram visualization and logs statistics such as the average particle area and count.
+
+### DM4 Processor Function
+
+- **Input:** Folder containing `.dm4` files and the output folder where processed images and metadata will be stored.
+- **Processing:** Extracts metadata from the `.dm4` files (sample name, scale, units, dimensions) and normalizes the image data.
+- **Output:** Saves normalized images as `.png` in subfolders named after the sample. Metadata is logged in `samples_info.txt`.
+
+### Segmentor Function
+
+- **Input:** Processed images and the pre-trained segmentation model.
+- **Processing:** Applies the deep learning model to segment particles, calculates particle areas, and saves the segmented images.
+- **Output:** Segmentation results saved as images and particle data saved for further analysis.
+
+### Analyzer Function
+
+- **Input:** Segmentation results and particle area data.
+- **Processing:** Analyzes the distribution of particle sizes and generates statistical information and histograms.
+- **Output:** Saves a histogram visualization and logs statistics such as the average particle area and count.
+
 
 ## Example Use Case
 
