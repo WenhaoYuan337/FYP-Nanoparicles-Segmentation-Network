@@ -68,7 +68,14 @@ python emcopilot.py
 - **Output:** Saves a histogram visualization and logs statistics such as the average particle area and count.
 
 
-## Example Use Case
+## Project Outlook
+- **object detection:** detection models such as Fast R-CNN or Yolo 11 can also be implemented for particle detection, which may be much faster than segmentation, better suited for high-throughput requirements.
+- **object detection:** detection models such as Fast R-CNN or Yolo 11 can also be implemented for particle detection, which may be much faster than segmentation, better suited for high-throughput requirements.
+
+
+## Questions?
+- **Please email wy337@cornell.edu or add WeChat 13303130328 ** 
+
 
 
 
