@@ -30,6 +30,10 @@ You can install the necessary dependencies using:
 pip install opencv-python-headless numpy matplotlib albumentations torch scipy pillow hyperspy
 ```
 
+## Dataset and Pre-tranined Model
+
+The in-situ dataset (Au@C) and a pre-trained model for HAADF-STEM images can be accessed via [Google Drive](https://drive.google.com/drive/folders/1BA7ocRKHME2HKGB5DVO0DUin0OJvHckg?usp=drive_link)
+
 ## How to Use
 1. Initialize the environment: Ensure that you have the necessary dependencies installed, as listed in the Requirements section.
 
