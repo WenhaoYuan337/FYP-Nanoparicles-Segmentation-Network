@@ -1,4 +1,4 @@
-# EMcopilot: Electron Microscopy Image Processing and Segmentation
+# EMcopilot: Real Electron Microscopy Image Processing and Segmentation for Nanoparticles Analysis
 
 **EMcopilot** is a tool designed for processing, segmenting, and analyzing electron microscopy (EM) images stored in `.dm4` format. It leverages deep learning models for image segmentation, extracts relevant metadata, and generates visualizations and statistical reports for particle analysis.
 
