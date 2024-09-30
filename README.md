@@ -42,7 +42,7 @@ pip install opencv-python-headless numpy matplotlib albumentations torch scipy p
 5. Run the script: The script will process the .dm4 files, segment the images, and generate the required analysis.
 
 ```bash
-python emcopilot.py
+python particle_size.py
 ```
 6. Results: The processed images and analysis results (such as segmented images, particle count, and size statistics) will be saved in the specified output folder.
 
